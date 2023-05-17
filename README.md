@@ -1,2 +1,4 @@
-## PROJETO SYMFONY 6 COM TWIG 3 CRUd USUARIO SIMPLES ##
-### Curso php avançado da DIO
+# Symfony 6 Twig 3 PHP 8
+## Projeto DIO
+
+Projeto desenvolvido no curso php avançado da DIO
