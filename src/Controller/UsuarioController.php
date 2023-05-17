@@ -9,13 +9,13 @@ use Symfony\Component\Routing\Annotation\Route;
 #[Route("/", name:"web_usuario_")]
 class UsuarioController extends AbstractController
 {
-    #[Route('/', methods: ['GET'])]
+    #[Route('/', methods: ['GET'], name: 'index')]
     public function index() : Response
     {
         return $this->render('usuario/form.html.twig');
     }
 
-    #[Route('/salvar', methods: ['POST'])]
+    #[Route('/salvar', methods: ['POST'], name : 'salvar')]
     public function salvar(): Response
     {
         return new Response("imlementar gravação no banco");
