@@ -6,3 +6,11 @@ html, body {
 .topo{
     background-color: rgb(47, 47, 47);
 }
+
+.msgSucesso {
+    color: green;
+}
+
+.msgError {
+    color: red;
+}
