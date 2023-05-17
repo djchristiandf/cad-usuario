@@ -45,8 +45,6 @@ class UsuarioController extends AbstractController
             return $this->render("usuario/errorform.html.twig", [
                 'fulano' => $data['nome']
             ]);
-        }
-
-        
+        }        
     }
 }
